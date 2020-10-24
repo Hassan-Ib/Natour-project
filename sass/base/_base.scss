@@ -1,0 +1,38 @@
+*, 
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: initial;
+}
+
+html{
+    // definning 1rem
+    font-size: 62.5%; // 1rem == 10px 
+
+    @include respond(tab-land){ // width < than 1200
+        font-size: 56.25%;
+    }
+
+    @include respond(tab-port){ // width < than 600
+        font-size: 50%;
+    }
+
+    // @include respond(phone){
+    //     font-size: 30%;
+    // }
+    
+    @include respond(big-screen){
+        font-size: 75%;
+    }
+
+}
+
+body{
+    box-sizing: border-box;
+    position: relative;
+    padding: 3rem;
+    @include respond(tab-port){ // width < than 600
+        padding: 0;
+    }
+}

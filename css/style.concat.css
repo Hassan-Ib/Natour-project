@@ -789,11 +789,11 @@ body {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(/img/nat-5.jpg); }
+      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../../img/nat-5.jpg); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, #44c72c, #28b485), url(/img/nat-6.jpg); }
+      background-image: linear-gradient(to right bottom, #44c72c, #28b485), url(../../img/nat-6.jpg); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), #5643fa), url(/img/nat-7.jpg); }
+      background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), #5643fa), url(../../img/nat-7.jpg); }
   .card__heading {
     color: #fff;
     font-size: 2.8rem;
@@ -1166,7 +1166,7 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(68, 199, 44, 0.6), rgba(40, 180, 133, 0.6)), url(../img/hero.jpg);
+  background-image: linear-gradient(to right bottom, rgba(68, 199, 44, 0.6), rgba(40, 180, 133, 0.6)), url(../../img/hero.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
@@ -1380,7 +1380,7 @@ body {
 
 .features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(68, 199, 44, 0.6), rgba(40, 180, 133, 0.6)), url(/img/nat-4.jpg);
+  background-image: linear-gradient(to right bottom, rgba(68, 199, 44, 0.6), rgba(40, 180, 133, 0.6)), url(../../img/nat-4.jpg);
   background-size: cover;
   background-position: center;
   transform: skewY(-7deg);
@@ -1414,19 +1414,19 @@ body {
       padding: 10rem 0; } }
 
 .book {
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(/img/nat-10.jpg);
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../../img/nat-10.jpg);
   background-size: cover;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.6); }
   @media (max-width: 75em) {
     .book {
       padding: 10rem 0;
-      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(/img/nat-10.jpg);
+      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../../img/nat-10.jpg);
       background-size: cover; } }
   @media (max-width: 56.25em) {
     .book {
       padding: 10rem 0;
-      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(/img/nat-10.jpg);
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../../img/nat-10.jpg);
       background-size: cover; } }
   .book__form {
     width: 50%;
